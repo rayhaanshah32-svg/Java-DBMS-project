@@ -1,0 +1,162 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.subtitle {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+.exportButtons {
+  display: flex;
+  gap: var(--space-2);
+  flex-shrink: 0;
+}
+
+.exportButtons button {
+  font-size: 11px;
+  padding: 3px 10px;
+}
+
+.chartContainer {
+  background: var(--bg-surface);
+  border: var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.legend {
+  display: flex;
+  gap: var(--space-4);
+  font-size: 10px;
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+  flex-wrap: wrap;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dotCircle {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--basis-x);
+  border: 1px solid white;
+}
+
+.dotSquare {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: var(--color-suspicious);
+  border: 1px solid white;
+}
+
+.lineAdvisory {
+  display: inline-block;
+  width: 24px;
+  height: 0;
+  border-top: 2px dashed var(--color-advisory);
+}
+
+.lineSuspicious {
+  display: inline-block;
+  width: 24px;
+  height: 0;
+  border-top: 2px dashed var(--color-suspicious);
+}
+
+.chartScientificNote {
+  font-size: 9.5px;
+  color: var(--text-muted);
+  font-style: italic;
+  text-align: center;
+  margin-top: 4px;
+}
+
+.sweepControls {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  background: var(--bg-base);
+  border: var(--border);
+  border-radius: var(--radius-md);
+}
+
+.sweepActions {
+  display: flex;
+  gap: var(--space-2);
+  align-items: center;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.formGroup label {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+}
+
+.dataTable {
+  background: var(--bg-surface);
+  border: var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-4);
+}
+
+.liveRow td {
+  background: var(--color-suspicious-bg) !important;
+}
+
+.sourcecsv {
+  color: var(--basis-x);
+}
+
+.sourcelive {
+  color: var(--color-suspicious);
+}
+
+.accept {
+  color: var(--color-accept);
+}
+
+.reject {
+  color: var(--color-critical);
+}
+
+.tooltip {
+  background: var(--bg-surface);
+  border: var(--border);
+  border-radius: var(--radius-md);
+  padding: 8px 12px;
+  font-size: 11px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
