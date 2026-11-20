@@ -1,4 +1,4 @@
-# QDS Sentinel
+# Java-DBMS Project
 
 **QDS Sentinel** simulates teleportation-based Quantum Digital Signatures (QDS) and detects forgery, replay, impersonation and quantum-channel tampering using quantum measurement statistics and deterministic mathematical rules.
 
